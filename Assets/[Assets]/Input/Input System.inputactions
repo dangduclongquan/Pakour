@@ -10,8 +10,9 @@
                     "type": "Value",
                     "id": "baedad59-9eaf-4306-b140-ae4844cd5393",
                     "expectedControlType": "Vector2",
-                    "processors": "ScaleVector2(x=50,y=50)",
-                    "interactions": ""
+                    "processors": "ScaleVector2(x=100,y=100)",
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Action",
@@ -19,7 +20,8 @@
                     "id": "4ac79f4c-c477-4718-a514-59ad9ddec1a2",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press(behavior=2)"
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Move",
@@ -27,7 +29,8 @@
                     "id": "9e740f8b-2e72-480f-89fc-db9ef06784c0",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Jump",
@@ -35,7 +38,8 @@
                     "id": "b6ffd758-881c-45a7-ae70-d3c7c0ad7ea5",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Crouch",
@@ -43,7 +47,8 @@
                     "id": "2c52a534-1dd5-4ae2-a524-8ef6642cc09a",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press(behavior=2)"
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Sprint",
@@ -51,7 +56,8 @@
                     "id": "d5471192-7be8-4e00-8288-b81564ef8904",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press(behavior=2)"
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "HeadlightToggle",
@@ -59,7 +65,8 @@
                     "id": "d53f48d4-3959-4a9b-8bb0-4ec700e8bf22",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Menu",
@@ -67,7 +74,8 @@
                     "id": "6ae407c1-5d4a-4145-ae9c-793ee41b1ea9",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "ViewModeToggle",
@@ -75,7 +83,8 @@
                     "id": "e544c8b2-2c77-4479-93b3-a2a1105e76f6",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Zoom",
@@ -83,7 +92,8 @@
                     "id": "9e5e423f-c0cd-4675-9a4d-1ea7dca7030b",
                     "expectedControlType": "Axis",
                     "processors": "Scale",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Inventory",
@@ -91,7 +101,8 @@
                     "id": "e142a8b2-bec9-415b-b3e1-b08bfc707769",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -382,7 +393,8 @@
                     "id": "48d6aa5f-d191-44ae-8f75-38cd3fe6d692",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "NextPlayer",
@@ -390,7 +402,8 @@
                     "id": "8ff77156-582d-460f-b023-40ccd1daef3f",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "ViewModeToggle",
@@ -398,7 +411,8 @@
                     "id": "fb65a8a6-fdb9-4e67-9309-6ff98c4e8628",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Zoom",
@@ -406,7 +420,8 @@
                     "id": "a000ca61-871f-4981-92be-7b30e5d11b65",
                     "expectedControlType": "Axis",
                     "processors": "Scale",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "ThirdPersonCameraLockToggle",
@@ -414,7 +429,8 @@
                     "id": "6874bd1c-0da8-41bf-9af6-bc4de1d6cbe6",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -485,7 +501,8 @@
                     "id": "e36355d1-295a-4c35-8466-3fb9f66cb654",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -523,7 +540,8 @@
                     "id": "35bee3d6-7dd9-4918-adbe-4b4c9cbb0617",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [

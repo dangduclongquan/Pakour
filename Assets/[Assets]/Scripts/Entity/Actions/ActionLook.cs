@@ -26,6 +26,6 @@ public class ActionLook : MonoBehaviour
 
     public void Look(Vector2 val)
     {
-        value = val;
+        value = val* PlayerPrefs.GetFloat("mouseSensitivity");
     }
 }

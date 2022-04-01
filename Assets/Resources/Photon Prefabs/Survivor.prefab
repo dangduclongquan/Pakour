@@ -8782,7 +8782,79 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: baedad59-9eaf-4306-b140-ae4844cd5393
+    m_ActionName: Player/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4ac79f4c-c477-4718-a514-59ad9ddec1a2
+    m_ActionName: Player/Action[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9e740f8b-2e72-480f-89fc-db9ef06784c0
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b6ffd758-881c-45a7-ae70-d3c7c0ad7ea5
+    m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2c52a534-1dd5-4ae2-a524-8ef6642cc09a
+    m_ActionName: Player/Crouch[/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d5471192-7be8-4e00-8288-b81564ef8904
+    m_ActionName: Player/Sprint[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d53f48d4-3959-4a9b-8bb0-4ec700e8bf22
+    m_ActionName: Player/HeadlightToggle[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6ae407c1-5d4a-4145-ae9c-793ee41b1ea9
+    m_ActionName: Player/Menu[/Keyboard/escape,/Keyboard/m]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e544c8b2-2c77-4479-93b3-a2a1105e76f6
+    m_ActionName: Player/ViewModeToggle[/Keyboard/v]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9e5e423f-c0cd-4675-9a4d-1ea7dca7030b
+    m_ActionName: Player/Zoom[/Mouse/scroll/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e142a8b2-bec9-415b-b3e1-b08bfc707769
+    m_ActionName: Player/Inventory[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 48d6aa5f-d191-44ae-8f75-38cd3fe6d692
+    m_ActionName: Spectator/PrevPlayer[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8ff77156-582d-460f-b023-40ccd1daef3f
+    m_ActionName: Spectator/NextPlayer[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fb65a8a6-fdb9-4e67-9309-6ff98c4e8628
+    m_ActionName: Spectator/ViewModeToggle[/Keyboard/v]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a000ca61-871f-4981-92be-7b30e5d11b65
+    m_ActionName: Spectator/Zoom[/Mouse/scroll/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6874bd1c-0da8-41bf-9af6-bc4de1d6cbe6
+    m_ActionName: Spectator/ThirdPersonCameraLockToggle[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e36355d1-295a-4c35-8466-3fb9f66cb654
+    m_ActionName: Menu/CloseMenu[/Keyboard/escape,/Keyboard/m]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 35bee3d6-7dd9-4918-adbe-4b4c9cbb0617
+    m_ActionName: Launcher/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -8867,6 +8939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterController: {fileID: 5166791140234176023}
   headTransform: {fileID: 2391329307057719737}
+  checkpoints: []
   yResetValue: -20
 --- !u!1 &5478225216269746484
 GameObject:
@@ -14769,7 +14842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8979529246429413492
 Transform:
   m_ObjectHideFlags: 0
